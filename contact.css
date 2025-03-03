@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(206, 228, 221);
+}
+.main-container {
+    background-color: #fff;
+    width: 40%;
+    margin: 100px auto;
+    padding: 20px;
+}
+.main-container h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.names {
+    display: flex;
+    gap: 1rem;
+}
+.inputs {
+    width: 225px;
+    padding: 3px;
+    margin: 10px 0px 20px 0px;
+}
+.input2 {
+    width: 465px;
+    padding: 3px;
+    margin: 10px 0px 20px 0px;
+}
+.input3 {
+    width: 225px;
+    padding: 3px;
+    margin: 10px 0px 20px 0px;
+}
+.inputs-b {
+    display: flex;
+    gap: 1rem;
+}
+.input5 {
+    width: 465px;
+    padding: 20px;
+    margin: 10px 0px 20px 0px;
+}
+.input6 {
+    width: 10px;
+    height: 10px;
+}
+  
+.button {
+    background-color: rgb(12, 125, 104);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    width: 465px;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+}
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
+.button:hover {
+    background-color: blue;
+  }
+
+.buttons {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+.button2 {
+    width: 225px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:  15px; 
+    text-align: start;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px 0px 20px 0px;
+}
+
+@media screen and (max-width:768px) {
+    .main-container {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .inputs {
+        width: 100%;
+        margin: 10px 0px 20px 0px;
+    }
+    .input2 {
+        width: 100%;
+    }
+    .input3 {
+        width: 100%;
+    }
+    
+    .input5 {
+        width: 100%;
+    }
+    .button2 {
+        width: 100%;
+        padding: 8px;
+    }
+    .button {
+        width: 100%;
+    }
+    
+}
